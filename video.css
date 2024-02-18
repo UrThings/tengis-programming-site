@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Protest+Riot&display=swap');
+
+
+
+.Background-photo{
+  position: absolute;
+  z-index: -1;
+  width: 1310px;
+  left: 20px;
+  right: 20px;
+  top: 0;
+}
+
+
+
+.header{
+  height: 100px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  border-bottom: 0px solid white;
+  background-color: black;
+  z-index: 1000;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+}
+.hiceel-button{
+  margin-left: 12px;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+}
+.tusul-button{
+  margin-left: 5px;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo{
+  height: 80px;
+  width: auto;
+  margin-left: -12px;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+}
+.handiw-button{
+  margin-right: 12px;
+}
+
+
+
+
+.btn{
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: black;
+  font-size: 18px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  opacity: 1;
+  transition: all 1s;
+  border:none;
+  color: white;
+  margin-left: 40px;
+}
+.btn::after,
+.btn::before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid black;
+  transition: all 1s;
+
+}
+.btn::after{
+  top: -1px;
+  left: -1px;
+  border-top:5px solid white ;
+  border-left: 5px solid white;
+
+}
+
+.btn::before{
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+
+}
+
+.btn:hover{
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+
+.btn:hover::before,
+.btn:hover::after {
+  width: 100%;
+  height: 100%;
+
+}
+
+.btn:active{
+  opacity: 0.5;
+  transition: 0.1s;
+}
+.buy{
+  margin-left: -150px;
+  padding-top: 200px;
+}
+
+
+
+.video-hiceel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15px;
+  width: 500px;
+}
+h1{
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Protest Riot', sans-serif;
+  margin-top: 110px;
+  font-size: 40px;
+  color: white;
+}
