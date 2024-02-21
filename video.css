@@ -163,16 +163,19 @@ h1{
     margin-right: 0;
   }
     .hiceel-button{
-    margin-left: 15px;
+    margin-left: 30px;
 
   }
   .handiw-button{
-    margin-right: 15px;
+    margin-right: 30px;
+  }
+  .tusul-button{
+    margi-left: 30px;
   }
   .header{
     left: 0px;
     margin-left: 0px;
-    width: 400px;
+    width: 430px;
   }
   .video-hiceel,
   .h1{
