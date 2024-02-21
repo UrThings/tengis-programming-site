@@ -14,7 +14,6 @@
 }
 
 
-
 .header{
   height: 100px;
   justify-content: space-between;
@@ -24,8 +23,8 @@
   top: 0;
   left: 20px;
   right: 20px;
-  border-bottom: 0px solid white;
-  background-color: black;
+  border-bottom: 0px solid black;
+  background-color: white;
   z-index: 1000;
 }
 
@@ -34,18 +33,19 @@
   align-items: center;
 }
 .hiceel-button{
-  margin-left: 12px;
-  border: 1px solid white;
+  margin-left: -12px;
+  border: 1px solid black;
   border-radius: 50px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: black;
+  background-color: white;
 }
 .tusul-button{
   margin-left: 5px;
 }
+
 .middle{
   display: flex;
   justify-content: center;
@@ -54,9 +54,9 @@
 
 
 .logo{
-  height: 80px;
+  height: 70px;
   width: auto;
-  margin-left: -12px;
+  margin-left: 0px;
 }
 
 .right{
@@ -64,7 +64,7 @@
   align-items: center;
 }
 .handiw-button{
-  margin-right: 12px;
+  margin-right: -12px;
 }
 
 
@@ -74,15 +74,13 @@
   cursor: pointer;
   position: relative;
   padding: 10px 20px;
-  background: black;
-  font-size: 18px;
+  background: white;
+  font-size: 20px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   opacity: 1;
   transition: all 1s;
   border:none;
-  color: white;
-  margin-left: 40px;
 }
 .btn::after,
 .btn::before {
@@ -90,23 +88,23 @@
   width: 10px;
   height: 10px;
   position: absolute;
-  border: 0px solid black;
+  border: 0px solid #fff;
   transition: all 1s;
 
 }
 .btn::after{
   top: -1px;
   left: -1px;
-  border-top:5px solid white ;
-  border-left: 5px solid white;
+  border-top:5px solid black ;
+  border-left: 5px solid black;
 
 }
 
 .btn::before{
   bottom: -1px;
   right: -1px;
-  border-bottom: 5px solid white;
-  border-right: 5px solid white;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
 
 }
 
@@ -133,7 +131,6 @@
 }
 
 
-
 .video-hiceel{
   display: flex;
   justify-content: center;
@@ -149,27 +146,37 @@ h1{
   color: white;
 }
 
-@media (max-width: 800px){
-  .header{
-    left: 0px;
-  }
+@media (max-width: 1000px){
   .btn{
     padding: 5px 10px;
     font-size: 10px;
     margin-left: 2px;
     margin-right: 2px;
   }
+  .logo{
+    height: 40px;
+    width: auto;
+    margin-left: -5px;
+    margin-right: 0;
+  }
+    .hiceel-button{
+    margin-left: 0px;
+
+  }
+  .header{
+    left: 0px;
+    margin-left: 0px;
+  }
   .video-hiceel,
   .h1{
     width: 200px;
     height: 300px;
     font-size: 20px;
-  }
-  .logo{
-    height: 40px;
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
-  }
+  
   
 }
+
+
+
+
+
