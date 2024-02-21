@@ -117,3 +117,26 @@
   margin-left: -150px;
   padding-top: 200px;
 }
+
+@media (max-width: 1000px){
+  .btn{
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .logo{
+    height: 40px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+    .hiceel-button{
+    margin-left: 0px;
+
+  }
+  .header{
+    left: 0px;
+    margin-left: 0px;
+  }
+}
