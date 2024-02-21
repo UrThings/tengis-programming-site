@@ -148,3 +148,27 @@ h1{
   font-size: 40px;
   color: white;
 }
+
+@media (max-width: 800px){
+  .header{
+    left: 0px;
+  }
+  .btn{
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .video-hiceel,
+  .h1{
+    width: 20px;
+    height: auto;
+  }
+  .logo{
+    height: 40px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+}
