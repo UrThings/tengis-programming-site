@@ -135,5 +135,7 @@
     left: 0px;
     margin-left: 0px;
   }
-  .
+  .mode{
+    margin-left: -10px;
+  }
 }
