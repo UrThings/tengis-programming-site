@@ -6,9 +6,9 @@
 .Background-photo{
   position: absolute;
   z-index: -1;
-  width: 1710px;
+  width: auto;
   left: 0;
-  right: -20px;
+  right: 0px;
   top: 0;
 }
 
@@ -186,8 +186,8 @@ h1{
   .background-photo{
     margin-left: -12px;
     left: -12px;
-    width: 400px;
-    height: 2000px;
+    width: auto;
+    height: 1500px;
   }
 }
 
