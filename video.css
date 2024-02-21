@@ -161,8 +161,9 @@ h1{
   }
   .video-hiceel,
   .h1{
-    width: 20px;
-    height: auto;
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
   }
   .logo{
     height: 40px;
