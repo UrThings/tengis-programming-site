@@ -6,7 +6,7 @@
 .Background-photo{
   position: absolute;
   z-index: -1;
-  width: 1310px;
+  width: 1710px;
   left: 0;
   right: 0;
   top: 0;
@@ -187,7 +187,7 @@ h1{
     margin-left: -12px;
     left: -12px;
     width: 400px;
-    height: 1800px;
+    height: 2000px;
   }
 }
 
