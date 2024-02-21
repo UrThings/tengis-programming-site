@@ -169,14 +169,18 @@ h1{
   .header{
     left: 0px;
     margin-left: 0px;
+    width: 500px;
   }
   .video-hiceel,
   .h1{
     width: 350px;
     height: 450px;
     font-size: 20px;
-  
-  
+  }
+  .background-photo{
+    width: 500px;
+    height: 1200px;
+  }
 }
 
 
