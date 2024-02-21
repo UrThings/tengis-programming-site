@@ -6,12 +6,12 @@
 .Background-photo{
   position: absolute;
   z-index: -1;
-  right: 20px;
+  width: 1310px;
   left: 20px;
+  right: 20px;
   top: 0;
-  width: 2000px;
-  height:auto;
 }
+
 
 
 .header{
@@ -24,7 +24,7 @@
   left: 20px;
   right: 20px;
   border-bottom: 0px solid white;
-  background-color: white;
+  background-color: black;
   z-index: 1000;
 }
 
@@ -33,7 +33,7 @@
   align-items: center;
 }
 .hiceel-button{
-  margin-left: -12px;
+  margin-left: 12px;
   border: 1px solid white;
   border-radius: 50px;
   padding-left: 10px;
@@ -45,7 +45,6 @@
 .tusul-button{
   margin-left: 5px;
 }
-
 .middle{
   display: flex;
   justify-content: center;
@@ -54,9 +53,9 @@
 
 
 .logo{
-  height: 70px;
+  height: 80px;
   width: auto;
-  margin-left: 0px;
+  margin-left: -12px;
 }
 
 .right{
@@ -64,7 +63,7 @@
   align-items: center;
 }
 .handiw-button{
-  margin-right: -12px;
+  margin-right: 12px;
 }
 
 
@@ -75,12 +74,14 @@
   position: relative;
   padding: 10px 20px;
   background: black;
-  font-size: 20px;
+  font-size: 18px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   opacity: 1;
   transition: all 1s;
   border:none;
+  color: white;
+  margin-left: 40px;
 }
 .btn::after,
 .btn::before {
@@ -88,7 +89,7 @@
   width: 10px;
   height: 10px;
   position: absolute;
-  border: 0px solid white;
+  border: 0px solid black;
   transition: all 1s;
 
 }
@@ -131,6 +132,7 @@
 }
 
 
+
 .video-hiceel{
   display: flex;
   justify-content: center;
@@ -145,6 +147,7 @@ h1{
   font-size: 40px;
   color: white;
 }
+
 
 @media (max-width: 1000px){
   .btn{
