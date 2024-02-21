@@ -163,13 +163,16 @@ h1{
     margin-right: 0;
   }
     .hiceel-button{
-    margin-left: 0px;
+    margin-left: 15px;
 
+  }
+  .handiw-button{
+    margin-right: 15px;
   }
   .header{
     left: 0px;
     margin-left: 0px;
-    width: 370px;
+    width: 400px;
   }
   .video-hiceel,
   .h1{
