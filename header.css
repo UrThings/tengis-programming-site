@@ -124,7 +124,7 @@
   .logo{
     height: 40px;
     width: auto;
-    margin-left: 0;
+    margin-left: -5px;
     margin-right: 0;
   }
     .hiceel-button{
@@ -135,4 +135,5 @@
     left: 0px;
     margin-left: 0px;
   }
+  .
 }
