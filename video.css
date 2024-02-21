@@ -6,7 +6,8 @@
 .Background-photo{
   position: absolute;
   z-index: -1;
-  width: 2800px;
+  width: 13000px;
+  height: auto;
   left: 0;
   right: 0px;
   top: 0;
