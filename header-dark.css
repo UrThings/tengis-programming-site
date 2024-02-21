@@ -128,11 +128,11 @@
   .logo{
     height: 40px;
     width: auto;
-    margin-left: 0;
+    margin-left: -15px;
     margin-right: 0;
   }
     .hiceel-button{
-    margin-left: 0px;
+    margin-left: -10px;
 
   }
   .header{
