@@ -16,7 +16,7 @@ export const hiceeluud=[
     number: '3'
   },{
     name: '2р хичээл',
-    title: '2 Тооны нийлбэр олох,
+    title: '2 Тооны нийлбэр олох',
     image: "What-is-c++.jpg",
     number: '4'
   },{
