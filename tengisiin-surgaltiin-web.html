@@ -25,6 +25,134 @@
       </a>
     </div>
   </div>
+
+  //chatbot
+
+
+      <div class="all">
+        <div><button onclick="xButton();" class="x-button button1">X</button></div>
+        <div class="chatbot">
+            <div class="phone">
+                <div class="phone-header">
+                    <div class="left-section">
+                        <img class="imagee" src="battery.png" alt="battery">
+                    </div>
+                    <div class="middle-section"></div>
+                    <div class="right-section">
+                        <img class="imagee cellular" src="cellular.png" alt="cellular">
+                        <img class="imagee wifi" src="wifi.png" alt="wifi">
+                    </div>
+                </div>
+                <div class="header1">
+                <div class="bot-name">Tengis Auto Answer Machine</div>
+                </div>
+                <div class="chat">
+                <div class="computer text" id="writing-text"></div>
+                <button class="button1" onclick="
+                    react();
+                    ">Эцэг эх</button>
+                <button class="button1" onclick="react2();">Сурагч</button>
+                <div class="computer-chat computer"></div>
+                <div class="computer-chat2 computer"></div>
+    
+                </div>
+            </div>
+            <div class="chat-bar"><input type="text" name="Type Your Message" id="type ypu message" placeholder="Type your message"></div>
+        </div>
+    </div>
+        <script>
+            function react() {
+            document.querySelector('.computer-chat').innerHTML = `<div class="text"> Та эсвэл таны хүүхэд программ сонирхож байвал таньд энэ вэбсайтыг санал болгож байна. Та сонирхож байна уу︖</div>
+                <p>
+                <button class="button1" onclick="
+                tenma();
+                ">Тийм</button> 
+                <button class="button1" onclick="
+                tengis();
+                ">Үгүй</button>
+                </p>
+                `;
+            document.querySelector('.computer-chat2').innerHTML =``;
+    
+                
+            };
+    
+            function react2() {
+            document.querySelector('.computer-chat').innerHTML = `<div class="text"> Та  программ сонирхож байвал таньд энэ вэбсайтыг санал болгож байна. Та сонирхож байна уу︖</div>
+                <p>
+                <button class="button1" onclick="
+                tenma2();
+                ">Тийм</button> 
+                <button class="button1" onclick="
+                tengis();
+                ">Үгүй</button>
+                </p>
+                `;
+              
+                document.querySelector('.computer-chat2').innerHTML =``;
+
+    
+                
+            };
+    
+            function tenma() {
+                document.querySelector('.computer-chat2').innerHTML= `<div class="text">Та эсвэл таны хүүхэд энэхүү хичээлийг үзэж дуусгасанаар тухайн төсөлүүдийг хийж сурнаа.</div>
+                <div>
+                    
+                </div>
+    
+                `;
+            };
+    
+            function tenma2() {
+                document.querySelector('.computer-chat2').innerHTML= `<div class="text">Та энэхүү хичээлийг үзэж дуусгасанаар тухайн төсөлүүдийг хийж сурнаа.</div>
+                <div>
+                    
+                </div>
+    
+                `;
+            };
+    
+            function tengis() {
+                document.querySelector('.computer-chat2').innerHTML = `<div class="text">Өдрийг сайхан өнгөрүүлээрэй.</div>`;
+            };
+    
+            function xButton() {
+                document.querySelector('.all').innerHTML =``
+            };
+
+            document.addEventListener('DOMContentLoaded', function () {
+      // Get the element where the text will be written
+      const writingTextElement = document.getElementById('writing-text');
+      
+      // Your text content
+      const textContent = "Сайн байна уу намайг АльфаТэнгис чатбот гэдэг. Та хэн бэ?";
+
+      // Function to simulate typing effect
+      function typeText() {
+        let index = 0;
+
+        // Use setInterval to gradually add each character
+        const typingInterval = setInterval(function () {
+          writingTextElement.textContent += textContent[index];
+          index++;
+
+          // Check if reached the end of the text
+          if (index === textContent.length) {
+            clearInterval(typingInterval);
+          }
+        }, 50); // Adjust the interval based on your preference
+      }
+
+      // Call the function to start typing when the page loads
+      typeText();
+    });
+            
+        </script>
+    
+
+
+  
   <div class="head">
     All Videos
   </div>
