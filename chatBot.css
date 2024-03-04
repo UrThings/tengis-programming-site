@@ -55,7 +55,7 @@
   border-radius: 20px;
   padding: 3px 6px;
   border-color: rgb(113, 113, 235);
-  background-color: lightblue;
+  background-color: white;
   font-size: 14px;
   cursor: pointer;
   transition: 0.3s;
@@ -133,7 +133,7 @@ margin-left:10px;
 }
 input{
   border-radius: 10px;
-  border-color: aqua;
+  border-color: rgb(113, 113, 235);
   height: 20px;
   width: 165px;
   font-size: 14px;
