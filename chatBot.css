@@ -41,6 +41,7 @@
   font-size: 14px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  border: none;
 }
 
 .computer{
@@ -85,7 +86,7 @@ margin-left:10px;
   height: 450px;
   border: solid 1px DodgerBlue;
   border-radius: 15px;
-  background-color: DodgerBlue;
+  background-color: rgb(14, 52, 90);
   
 }
 
