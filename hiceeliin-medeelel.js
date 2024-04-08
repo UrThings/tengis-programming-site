@@ -40,4 +40,16 @@ export const hiceeluud=[
     image: "What-is-c++.jpg",
     number: '9'
   }
+  ,{
+    name: '9р хичээл',
+    title: 'Хүндэвтэр бодлого бодож өөрийгөө сорих 2',
+    image: "What-is-c++.jpg",
+    number: '9'
+  }
+  ,{
+    name: '10р хичээл',
+    title: 'Хүндэвтэр бодлого бодож өөрийгөө сорих 3',
+    image: "What-is-c++.jpg",
+    number: '9'
+  }
 ];
