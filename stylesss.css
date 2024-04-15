@@ -18,7 +18,7 @@
 
 .title{
 	position: absolute;
-	top: 0;
+	top: 200px;
 	font-size: 4rem;
 	z-index: 2;
 }
@@ -29,7 +29,7 @@
 	width: 30vw;
 	justify-content: space-evenly;
 	position: absolute;
-	top: 70px;
+	top: 270px;
 	z-index: 1;
 }
 
