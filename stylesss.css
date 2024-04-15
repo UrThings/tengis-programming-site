@@ -107,17 +107,17 @@ img{
 }
 
 .rock{
-	height: 0px;
-	width: 0px;
+	height: 120px;
+	width: 120px;
 }
 
 .paper{
-	height: 0px;
-	width: 0px;
+	height: 120px;
+	width: 120px;
 
 }
 
 .scissor{
-	height: 0px;
-	width: 0px;
+	height: 120px;
+	width: 120px;
 }
