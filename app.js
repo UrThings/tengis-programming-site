@@ -13,7 +13,7 @@ const game = () => {
 		const paperBtn = document.querySelector('.paper');
 		const scissorBtn = document.querySelector('.scissor');
 		const playerOptions = [rockBtn, paperBtn, scissorBtn];
-		const computerOptions = ['чулуу', 'даавуу', 'хайч']
+		const computerOptions = ['rock', 'paper', 'scissors']
 
 		// Function to start playing game
 		playerOptions.forEach(option => {
@@ -21,7 +21,7 @@ const game = () => {
 
 				const movesLeft = document.querySelector('.movesleft');
 				moves++;
-				movesLeft.innerText = `Боломжийн тоо: ${10 - moves}`;
+				movesLeft.innerText = `Moves Left: ${10 - moves}`;
 
 
 				const choiceNumber = Math.floor(Math.random() * 3);
@@ -47,38 +47,39 @@ const game = () => {
 		player = player.toLowerCase();
 		computer = computer.toLowerCase();
 		if (player === computer) {
-			result.textContent = 'Тэнцлээ'
+			result.textContent = 'Tie'
+			
 		}
-		else if (player == 'чулуу') {
-			if (computer == 'даавуу') {
-				result.textContent = 'Өрсөлдөгч яллаа';
+		else if (player == 'rock') {
+			if (computer == 'paper') {
+				result.textContent = 'Computer Won';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 
 			} else {
-				result.textContent = 'Тоглогч яллаа'
+				result.textContent = 'Player Won'
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
-		else if (player == 'хайч') {
-			if (computer == 'чулуу') {
-				result.textContent = 'Өрсөлдөгч яллаа';
+		else if (player == 'scissors') {
+			if (computer == 'rock') {
+				result.textContent = 'Computer Won';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 			} else {
-				result.textContent = 'Тоглогч яллаа';
+				result.textContent = 'Player Won';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
 		}
-		else if (player == 'даавуу') {
-			if (computer == 'хайч') {
-				result.textContent = 'Өрсөлдөгч яллаа';
+		else if (player == 'paper') {
+			if (computer == 'scissors') {
+				result.textContent = 'Computer Won';
 				computerScore++;
 				computerScoreBoard.textContent = computerScore;
 			} else {
-				result.textContent = 'Тоглогч яллаа';
+				result.textContent = 'Player Won';
 				playerScore++;
 				playerScoreBoard.textContent = playerScore;
 			}
@@ -97,25 +98,25 @@ const game = () => {
 		})
 
 
-		chooseMove.innerText = 'Тоглоом дууссан!!'
+		chooseMove.innerText = 'Game Over!!'
 		movesLeft.style.display = 'none';
 
 		if (playerScore > computerScore) {
 			result.style.fontSize = '2rem';
-			result.innerText = 'Чи яллаа'
+			result.innerText = 'You Won The Game'
 			result.style.color = '#308D46';
 		}
 		else if (playerScore < computerScore) {
 			result.style.fontSize = '2rem';
-			result.innerText = 'Чи ялагдсан';
+			result.innerText = 'You Lost The Game';
 			result.style.color = 'red';
 		}
 		else {
 			result.style.fontSize = '2rem';
-			result.innerText = 'Тэнцсэн';
+			result.innerText = 'Tie';
 			result.style.color = 'grey'
 		}
-		reloadBtn.innerText = 'Дахин эхлэх';
+		reloadBtn.innerText = 'Restart';
 		reloadBtn.style.display = 'flex'
 		reloadBtn.addEventListener('click', () => {
 			window.location.reload();
