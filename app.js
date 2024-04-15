@@ -13,7 +13,7 @@ const game = () => {
 		const paperBtn = document.querySelector('.paper');
 		const scissorBtn = document.querySelector('.scissor');
 		const playerOptions = [rockBtn, paperBtn, scissorBtn];
-		const computerOptions = ['чулуу', 'даавуу', 'чулуу']
+		const computerOptions = ['чулуу', 'даавуу', 'хайч']
 
 		// Function to start playing game
 		playerOptions.forEach(option => {
