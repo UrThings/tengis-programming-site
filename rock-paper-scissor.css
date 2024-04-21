@@ -1,0 +1,51 @@
+
+  p{
+    display: block;
+  }
+  body{
+    background-color: black;
+    color: white;
+
+  }
+
+
+
+
+  .move-button {
+    background-color: transparent;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    opacity: 1;
+    transition:opacity 0.3s;
+  }
+  .move-button:active{
+    opacity: 0.5;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+
+
+  }
+  .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 0px;
+
+  }
+  .js-result,
+  .js-moves,
+  .js-score{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .reset-button-css{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 0px;
+  }
