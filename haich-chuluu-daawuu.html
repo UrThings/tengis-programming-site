@@ -35,9 +35,9 @@
     <p class="js-score"></p>
 
     <BUTTON onclick="
-    score.wins = 0;
-    score.losses = 0;
-    score.ties = 0;
+    score.Хожил = 0;
+    score.Хожигдол = 0;
+    score.Тэнцсэн = 0;
     localStorage.removeItem('score')
     updateScoreElement();
     " class="reset-button-css">Reset Score
@@ -48,9 +48,9 @@
 
     <script>
       let score = (JSON.parse(localStorage.getItem('score'))) || {
-      wins: 0,
-      losses: 0,
-      ties: 0
+      Хожил: 0,
+      Хожигдол: 0,
+      Тэнцсэн: 0
       };
 
 
@@ -64,9 +64,9 @@
       if (!score)
       {
        score = {
-        wins: 0,
-        losses: 0,
-        ties: 0
+        Хожил: 0,
+        Хожигдол: 0,
+        Тэнцсэн: 0
        };
       }
       */
@@ -114,15 +114,15 @@
 
         if (result === "Та яллаа")
         {
-          score.wins = score.wins + 1;
+          score.Хожил = score.Хожил + 1;
         }
         else if (result ==="Та хожигдлоо")
         {
-          score.losses += 1;
+          score.Хожигдол += 1;
         }
         else if (result === "Тэнцлээ")
         {
-          score.ties += 1;
+          score.Тэнцсэн += 1;
         }
 
         localStorage.setItem('score', JSON.stringify(score));
@@ -131,13 +131,13 @@
 
         document.querySelector('.js-result').innerHTML = result;
 
-        document.querySelector('.js-moves').innerHTML = `You <img src="hw/${playerMove}-emoji.png">  <img src="hw/${computerMove}-emoji.png"> Computer`;
+        document.querySelector('.js-moves').innerHTML = `You <img src="${playerMove}-emoji.png">  <img src="${computerMove}-emoji.png"> Computer`;
 
         
       }
       function updateScoreElement() {
         document.querySelector('.js-score')
-      .innerHTML = `Wins: ${score.wins} Loses: ${score.losses} Ties: ${score.ties}`;
+      .innerHTML = `Хожил: ${score.wins} Хожигдол: ${score.losses} Тэнцсэн: ${score.ties}`;
       }
 
       function pickComputerMove() {
