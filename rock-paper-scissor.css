@@ -13,9 +13,9 @@
 
   .move-button {
     background-color: transparent;
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
     border: 3px solid white;
     opacity: 1;
     transition:opacity 0.3s;
@@ -24,13 +24,13 @@
     opacity: 0.5;
   }
   img{
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
 
 
   }
   .title{
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
     margin-left: 0px;
 
@@ -38,14 +38,14 @@
   .js-result,
   .js-moves,
   .js-score{
-    margin-left: 20px;
-    font-size: 20px;
-    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 40px;
+    margin-top: 40px;
     margin-left: 0px;
   }
   .reset-button-css{
-    margin-top: 10px;
-    width: 150px;
-    height: 50px;
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
     margin-left: 0px;
   }
