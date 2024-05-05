@@ -8,7 +8,7 @@ hiceeluud.forEach((hicheel) => {
   <div class="lessons">
         <a href="hicheel1.html">
         <div class="image">
-        <a data-number="${hicheel.number}" href="video.html"><img class="zurag js-hiceeliin-button" src="${hicheel.image}" alt="hicheel"></a> 
+        <a data-number="${hicheel.number}" href="${hicheel.link}"><img class="zurag js-hiceeliin-button" src="${hicheel.image}" alt="hicheel"></a> 
         </div>
         </a>
         <div class="title">
