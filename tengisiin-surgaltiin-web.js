@@ -6,7 +6,7 @@ let orluulalt1='';
 hiceeluud.forEach((hicheel) => {
   orluulalt1 += `
   <div class="lessons">
-        <a href="${hicheel.link}">
+        <a href="hicheel1.html">
         <div class="image">
         <a data-number="${hicheel.number}" href="video.html"><img class="zurag js-hiceeliin-button" src="${hicheel.image}" alt="hicheel"></a> 
         </div>
